@@ -1,5 +1,5 @@
 import { fireEvent, render, screen } from '@testing-library/react'
-import { theme } from '../../theme'
+import { Color } from '../../theme'
 import NavBar from './NavBar'
 
 describe('NavBar', () => {
@@ -70,7 +70,7 @@ describe('NavBar', () => {
   describe('should change item style if is active', () => {
     const beforeStyle = { 'border-bottom': 'none' }
     const afterStyle = {
-      'border-bottom': `2px solid ${theme.colors.lightOrange}`
+      'border-bottom': `2px solid ${Color.JADE_GREEN_400}`
     }
 
     test('# About Me item', () => {
@@ -101,6 +101,34 @@ describe('NavBar', () => {
       fireEvent.click(item)
 
       expect(item).toHaveStyle(afterStyle)
+    })
+  })
+
+  describe('shows/hides languages selector on mouse interaction', () => {
+    test('# should show language selector on mouse over', () => {
+      render(<NavBar />)
+      const languageMenuButton = screen.getByLabelText('Language menu button')
+      const languageMenu = screen.getByLabelText('language-menu')
+
+      fireEvent.mouseOver(languageMenuButton)
+
+      expect(languageMenu).toHaveStyle({
+        display: 'block',
+        visibility: 'visible'
+      })
+    })
+
+    test('# should hide language selector on mouse leave', () => {
+      render(<NavBar />)
+      const languageMenuButton = screen.getByLabelText('Language menu button')
+      const languageMenu = screen.getByLabelText('language-menu')
+
+      fireEvent.mouseLeave(languageMenuButton)
+
+      expect(languageMenu).toHaveStyle({
+        visibility: 'hidden',
+        opacity: '0'
+      })
     })
   })
 })

@@ -1,40 +1,46 @@
 import React, { useContext, useState } from 'react'
 import { Wrapper } from './styles'
-import { Subtitle } from '../../global/styles'
-import Gallery from '../Gallery/Gallery'
+import { Heading2 } from '../../global/styles'
 import ScreenShotsGallery from '../ScreenShotsGallery/ScreenShotsGallery'
 import { LanguageContext, Text } from '../../global/LanguagesContext'
 import { DATA_TYPE, getData } from '../../data'
+import Carousel from '../Carousel/Carousel'
+import { GridLayout } from '../GridLayout'
+import { Space } from '../Space'
+import { Spacing } from '../../theme'
 
 const Projects = () => {
   const { dictionary } = useContext(LanguageContext)
   const projects = getData(dictionary, DATA_TYPE.projects)
-
-  const [imageDetailsOpen, setImageDetailsOpen] = useState(false)
+  const [galleryOpen, setGalleryOpen] = useState(false)
   const [selectedProject, setSelectedProject] = useState(0)
 
-  const handleImageDetailsOpen = (projectIndex) => {
-    setImageDetailsOpen(true)
+  const handleGalleryOpen = (projectIndex) => {
+    setGalleryOpen(true)
     setSelectedProject(projectIndex)
   }
 
-  const handleImageDetailsClose = () => {
-    setImageDetailsOpen(false)
+  const handleGalleryClose = () => {
+    setGalleryOpen(false)
   }
 
   return (
-    <Wrapper imageDetailsOpen id="projects" data-testid="projects">
-      <Subtitle data-aos="fade-zoom-in" data-aos-duration="1500">
-        <Text tid="projects" />
-      </Subtitle>
-      <Gallery
-        imageDetailsOpen={imageDetailsOpen}
-        projects={projects}
-        handleImageDetailsOpen={handleImageDetailsOpen}
-      />
-      {imageDetailsOpen && (
+    <Wrapper galleryOpen id="projects" data-testid="projects">
+      <Space
+        mobile={{ marginBottom: Spacing.MOBILE.SMALL }}
+        tablet={{ marginBottom: Spacing.TABLET.SMALL }}
+        desktop={{ marginBottom: Spacing.DESKTOP.SMALL }}
+      >
+        <Heading2>
+          <Text tid="projects" />
+        </Heading2>
+      </Space>
+      <GridLayout noPaddingOnMobile>
+        <Carousel projects={projects} handleGalleryOpen={handleGalleryOpen} />
+      </GridLayout>
+      {galleryOpen && (
         <ScreenShotsGallery
-          handleImageDetailsClose={handleImageDetailsClose}
+          handleGalleryClose={handleGalleryClose}
           images={projects[selectedProject].images}
         />
       )}

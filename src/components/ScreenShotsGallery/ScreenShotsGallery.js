@@ -5,11 +5,10 @@ import Button from '@material-ui/core/Button'
 import KeyboardArrowLeft from '@material-ui/icons/KeyboardArrowLeft'
 import KeyboardArrowRight from '@material-ui/icons/KeyboardArrowRight'
 import Close from '@material-ui/icons/Close'
-import { Image } from '../Projects/ProjectsContent/styles'
-import { Wrapper, ImageWrapper, Header, Background } from './styles'
+import { Wrapper, ImageWrapper, Image, Header, Background } from './styles'
 import { IconButton } from '@material-ui/core'
 
-const ScreenShotsGallery = ({ images, handleImageDetailsClose }) => {
+const ScreenShotsGallery = ({ images, handleGalleryClose }) => {
   const [activeStep, setActiveStep] = useState(0)
   const maxSteps = images.length
 
@@ -30,7 +29,7 @@ const ScreenShotsGallery = ({ images, handleImageDetailsClose }) => {
           </Typography>
           <IconButton
             data-testid="sg-close-button"
-            onClick={handleImageDetailsClose}
+            onClick={handleGalleryClose}
           >
             <Close />
           </IconButton>

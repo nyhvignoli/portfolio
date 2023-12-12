@@ -1,7 +1,5 @@
 import styled from 'styled-components'
-import { theme } from '../../theme'
-
-const { colors } = theme
+import { Color } from '../../theme'
 
 export const LanguageMenu = styled.div`
   padding: 0.5%;
@@ -12,7 +10,7 @@ export const LanguageMenu = styled.div`
   width: 150px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
-  color: ${colors.darkBlue};
+  color: ${Color.GREY_600};
 
   ${({ show }) =>
     show
@@ -35,15 +33,15 @@ export const MenuItem = styled.li`
   border-radius: 5px;
   transition: all 0.2s ease-in-out 0.1s;
 
-  &:hover {
-    background-color: #cdcdcd;
-    cursor: default;
+  &:hover,
+  &:focus {
+    background-color: ${Color.GREY_200};
   }
 
   ${({ selected }) =>
     selected &&
     `
-  color:${colors.babyBlue};
+  color: ${Color.GREY_400};
   transition: all 0.2s ease-in-out 0.1s;
 `}
 `

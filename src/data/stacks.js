@@ -1,15 +1,15 @@
 export const stacks = [
-  'Javascript',
-  'Typescript',
+  'JavaScript',
+  'TypeScript',
   'React',
+  'Angular',
   'HTML5',
   'CSS3',
+  'SASS',
   'GIT',
   'Node',
-  'NoSQL',
-  'MongoDB',
   'Java',
-  'Android Studio',
+  'C#',
   'MySQL',
-  'Firebase'
+  'MongoDB'
 ]

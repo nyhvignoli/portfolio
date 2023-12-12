@@ -5,16 +5,14 @@
   "professionTitle": "Full Stack Developer",
   "aboutMeDescription": "Hey there! I'm Aline but you may call me Nyh!\n I've found my passion for programming in the beginning of 2020 and today I'm a Web Full Stack Developer.\n I have an artistic background as a musician and tattoo artist (profession that I used to take for about 12 years), and currently I work as a Software Engineer at \n As a woman and a lesbian I stand for inclusion and diversity in technology!",
   "viewResume": "View resume",
-  "viewSkillsClockwork": "View skills experience time",
+  "viewSkillsClockwork": "Learn more about my experience time in each technology by visiting ",
 
   "knowledges": "Knowledges",
   "frontendKnowledges": [
     "Responsive Web applications development",
-    "Componentization and state management using React",
-    "Styling libraries such as Styled-components and Material-UI",
-    "Component library development using React and Storybook",
+    "Components libraries development using React and Storybook",
     "Unit test using Jest and React Testing Library",
-    "Sitefinity CMS, pages and MVC widgets building using .NET/C#",
+    "Sitefinity CMS, pages and MVC widgets building using .NET",
     "REST API's integration"
   ],
   "backendKnowledges": [
@@ -26,24 +24,26 @@
   ],
   "generalKnowledges": [
     "Clean Code",
+    "Test automation using Robot Framework",
     "Google Cloud Platform (GCP)",
     "AWS",
     "Agile Development"
   ],
   "general": "General",
 
-  "education": "Education",
-  "webFullStackDevelopment": "Web Full Stack Bootcamp",
-  "androidDevelopment": "Android Development",
-  "present": "present",
-  "labenuBootcampDescription": "Labenu is a startup which graduate Web Full Stack Developers ready for the job market. More than 1000 hours of programming make their students become professionals with practical knowledges on Back-end and Front-end.",
-  "androidDevelopmentCourseDescription": "Native Android Development Course, taught by Jamilton Damasceno. Learning process using Android Studio IDE, Java language, SQLite database and NoSQL with Firebase.",
+  "technologies": "Technologies",
 
-  "mongoDBDescription": "I've worked as a contractor for the international agile development team at MongoDB. Team responsible for maintain, sustain and develop new features for all websites under the mongodb.com domain. In this project I've worked specially developing bug fixes and improvements, both as a Backender and Frontender, but mostly as a Frontend developer.",
-  "shoppingOmniDescription": "I was part of the agile development team (front-end and back-end) of Shopping Omni project, for about 2 months. This project is sort of a plataform to sellers, with management and integration with stores, marketplaces, products, orders, among others features. Right now the website is beeing used only for registered sellers.",
+  "certificates": "certificates",
+  "css3Animations": "CSS3 Animations, Transforms, Transitions",
+  "gcpFundamentals": "Google Cloud Fundamentals",
+  "fullStackDevelopment": "Full Stack Web Development",
+
+  "gallery": "View gallery",
+  "mongoDBDescription": "I worked as a contractor for the team responsible for maintenance and development of new features for all websites under the mongodb.com domain. In this project I worked mostly developing bug fixes and improvements.",
+  "mongoDBComponentLibrary": "MongoDB Component Library",
+  "mongoDBComponentLibDescription": "I've contribuited in developing MongoDB internal component library. Participating in development and documentation of reusables components, implementing Design System based of Atomic Design principles.",
   "musicatchersDescription": "Full Stack Project developed at Labenu's bootcamp. It is about a web application with basic features of a music streaming Website.",
-  "labedditDescription": "Project developed at Labenu's bootcamp. A social media similar to Reddit, where the users are able to post, comment and vote in each others posts. This page uses a API developed by Labenu. Mobile responsive website.",
-  "astromatchDescription": "Project developed at Labenu's bootcamp. An app similar to Tinder, with fun celebrities from movies and TV where you may like, unlike and see if it's a match! :D This page uses a API developed by Labenu. Mobile responsive website.",
+  "labedditDescription": "Project developed at Labenu's bootcamp. A social media similar to Reddit, where the users are able to post, comment and vote in each others posts.",
   "labenuSystemDescription": "Project to wrap the Backend's 4º Module at Labenu. This was a team project, which the main goal was to develop an education intituition system, with students, teachers and missions entities.",
   "labookDescription": "Back-end structure of Labook Project, developed at Labenu's bootcamp. An API with social media basic features.",
 
@@ -51,13 +51,12 @@
   "backendOnGithub": "Back-end on Github",
   "viewCodeOnGithub": "View code on Github",
   "viewDocumentation": "View documentation",
-  "openWebsite": "Open website",
+  "viewWebsite": "View website",
 
   "communities": "Communities",
-  "vizirDescription": "Software studio with over 10 years on the market, my current job",
-  "labenuCommunityDescription": "Slack workspace with forum and culture for Labenu's students and former students",
-  "codivasDescription": "Corporate agency of women in tech",
-  "compiladorasDescription": "Community of women in tech, with programming bootcamps, lives and workshops",
+  "labenuCommunityDescription": "Discord community for Labenu's students and former students",
+  "codivasDescription": "Corporate agency of women in technology",
+  "compiladorasDescription": "Community of women in technology",
   "gufersDescription": "Front End Users Group from Rio Grande do Sul",
 
   "callToActionContactText": "Did you like my work? Let's chat!",
@@ -68,9 +67,9 @@
   "music": "Music",
   "tattoo": "Tattoo",
   "programming": "Programming",
-  "musicJourney": "I was born in Rio Grande's suburb, in the inland of Rio Grande do Sul. I'm the youngest daugther of a single mother and I have two brothers and one sister. My oldest brother is a musician, and that's how I had my first contact with musical instruments. When I was 15, I've learned how to play acoustic guitar by myself. In high school, I started my first all female band, with two of my friends: A New Metal band called Cacofonia, where I used to sing and play guitar. When the band was over, I moved on doing acoustic concerts at pub's around the city. Besides my interest in music, I've always liked to sketch and draw (my middle brother is a very talent artist). Yeah, I'm lucky that I was born in a very talented family, but unfortunately, with low opportunities. My sister has always been very great at handicraft, sewing and creative stuff. Today she makes beautiful and fun candies and chocolates to sell over there. I know that I'm been kind of prolix talking about my family, but I wouldn't make my journey's justice if I didn't mention where I came from and how I've became who I am. When I was 18 I came out as a lesbian. My mother was awesome and very supportive. When I was 19, she gave me a tattoo machine as a gift and I've moved to Tramandaí, close to Porto Alegre, to be near the capital and try to make a living as a musician and tattoo artist, which takes me to the next step of my story...",
-  "tattooJourney": "In Tramandaí I lived with my cousin for about 1 year. I was a tattoo artist self-employee at the time, and by the internet I've met Kika, a woman guitarrist from Porto Alegre that said she has listened to my songs at MySpace and enjoyed it. I've met her in person and we started a female band called Electric Mind. I know I'm mixing music and tattoo altogether, but these two passions were with me for a while. With Electric Mind we played at Porto Alegre/Brazil, São Paulo/Brazil and Buenos Aires/Argentina, we had a very great time, but unfortunately we didn't get any money out of it. That's when I started to officialy work as a tattoo artist at a studio, in Porto Alegre. I've had comings and goings at the studio, because it's owner was a very narrow-minded person and I didn't feel comfortable there. By the end of 2013, I've met and fell in love with Germana, my partner. She has always been by my side and supported me in everything I did. At some point, we felt that Porto Alegre didn't have anything else to offer us. The governament changed, the city got violent, so we've decided to try our lucky in Florianópolis/Brazil. There we founded a tattoo studio called Feminink. The idea was to be a safe and welcoming space to minorities, with all female staff. We were able to keep the studio alive for about 2 years, with me as a tattoo artist and Gê running the business, social medias, events, hosting our costumers, eticetera. With the new governament ruining our country, the economy wasn't going well and we were also going through a lot of lesbophobia and misoginy episodes, the things at the studio weren't doing fine. We decided to change the studio's name to Corpo Fechado, since we've noticed that the name Feminink was scaring rather than attracting people. Soon, Corpo Fechado also weren't working and we had to close the doors. With the pandemic my career as a tattoo artist went down the toilet and I've decided to use the lockdown to seek out a new career...",
-  "programmingJourney": "I started my developer journey by buying an Android Development Course at the Udemy and started studying on my own. This course had about 100 hours of duration, and when I was getting close to 50% of progress I saw on Instagram a publication about a Programming School called Labenu. I remember that it was about encouraging women and underrepresented minorities to start a technology career and that's when I fell in love with their values. This course was very different from what I was studying before, its main focus were in Web Programming and Employability, which really got my atention, since I was looking for something more professional. I've applied for their selective process through ISA(Income Share Agreement) and was aproved. I've had 6 intense months of practical learnship on programming and Labenu has always been a very cozy and safe environment. This school didn't only made me grow as a developer, but also as a person, since one of their principals and values is that the emotional intelligence comes first. Today I feel confident and qualified to face the market challanges, of course I still have so much to evolve and grow, but I'm already happy with my journey so far and ready to dive head first on this new universe! :) ",
+  "musicJourney": "I was born in Rio Grande's suburb, in the inland of Rio Grande do Sul. I'm the youngest daughter of a single mother and I have two brothers and one sister.\n My oldest brother is a musician, and that's how I had my first contact with musical instruments. When I was 15, I learned how to play acoustic guitar by myself. In high school, I started my first all female band, with two of my friends: A New Metal band called Cacofonia, where I used to sing and play guitar. Eventually the band was over, but I’ve moved on doing acoustic concerts at pubs around the city.\n Besides my interest in music, I've always liked to sketch and draw (my middle brother is a very talented artist). Yeah, I'm lucky that I was born in a very talented family. My sister, for example, has always been very great at handicraft, sewing and creative stuff. Today she makes beautiful and fun candies and chocolates to sell over there.\n Everytime I tell people about my story, I end up talking about my family, but I definitely wouldn’t be where I am if it wasn’t for them.\n Anyway, when I was 18, I came out as a lesbian. My mother has always been very supportive. In the following year she gave me a tattoo machine as a birthday gift. After that  I've moved to Tramandaí, close to Porto Alegre, to be near the capital and try to make a living as a musician and tattoo artist, which takes me to the next step of my story...",
+  "tattooJourney": "In Tramandaí I lived with my cousin for about 1 year. I was a tattoo artist self-employee at the time, and by the internet I met Kika, a woman guitarist from Porto Alegre who said she has listened to my songs at MySpace and enjoyed it. At some point I met her in person and we started a female band called Electric Mind. With Electric Mind we played at Porto Alegre/Brazil, São Paulo/Brazil and Buenos Aires/Argentina, we had a very great time, but unfortunately we didn't get any money out of it. That's when I started to officially work as a tattoo artist at a studio in Porto Alegre. I've had comings and goings at the studio, because its owner was a very narrow-minded person and I didn't feel comfortable there.\n By the end of 2013, I met and fell in love with Germana, my partner. She has always been by my side and supported me in everything I did. At some point, we felt that Porto Alegre didn't have anything else to offer us. The government changed, the city got violent, so we've decided to try our luck in Florianópolis/Brazil. \n There we founded a tattoo studio called Feminink. The idea was to be a safe and welcoming space to minorities, with all female staff. We were able to keep the studio alive for about 2 years, with me as a tattoo artist and Gê running the business (social medias, events, hosting our customers, etcetera). With the far-right ruining our country, the economy wasn't going well and we were also going through a lot of lesbophobia and misogyny episodes, the things at the studio weren't doing fine. We decided to change the studio's name to Corpo Fechado, since we've noticed that the name Feminink was scaring rather than attracting people.\n Soon, Corpo Fechado also wasn't working and we had to close the doors. With the pandemic my career as a tattoo artist went down the toilet and I've decided to use the lockdown to seek out a new career...",
+  "programmingJourney": "I started my developer journey by buying an Android Development Course at the Udemy and started studying on my own. This course had about 100 hours of duration, and when I was getting close to 50% of progress I saw on Instagram a publication about a programming school called Labenu.\n I remember that it was about encouraging women and underrepresented minorities to start a technology career and that really caught my attention. This course was very different from what I was studying before, its main focus was in Web Programming and employability.\n I've applied for their selective process through ISA (Income Share Agreement) and was approved. I've had 6 intense months of practical learnership on programming, facing great challenges, but Labenu has always been a very cozy and safe environment.\n Even before my graduation, by the end of the course, I was already employed and ready to start my first job at technology.\n Today I feel more confident and qualified each day to face the challenges of the market, always seeking to evolve and grow. I'm pretty happy with my journey so far! :)",
 
   "images": {
     "mongoDB": {
@@ -127,18 +126,18 @@
         "caption": "NavBar, after the fix (mobile version)"
       }
     },
-    "shoppingOmni": {
-      "shoppingOmni1": {
-        "alt": "screenshot of 'Etiquetas' screen, listing the orders with information about code, name, costumer name, order price and shipment method",
-        "caption": "'Etiquetas' screen, 'Gerar etiqueta' tab"
+    "mongoDBComponentLib": {
+      "webinarsPresentation": {
+        "alt": "MongoDB webinars page, title says 'Data Modeling in MongoDB'",
+        "caption": "MongoDB webinars presentation page"
       },
-      "shoppingOmni2": {
-        "alt": "screenshot of 'Minhas Etiquetas' screen, it lists PLP's with print button and ungroup button",
-        "caption": "'Etiquetas' screen, 'Minhas etiquetas' tab"
+      "cardGrid": {
+        "alt": "MongoDB website page with two cards: One relates to 'Atlas' (Multi-cloud database platform) and the other relates to 'Realm' (Work with data at the edge)",
+        "caption": "Card grid on MongoDB website"
       },
-      "shoppingOmni3": {
-        "alt": "screenshot of 'Minhas Etiquetas', tab to request collect, listing order code, costumer name and order price",
-        "caption": "'Etiquetas' screen, 'Coleta' tab"
+      "form": {
+        "alt": "MongoDB webinars registration form",
+        "caption": "MongoDB webinars registration form"
       }
     },
     "musicatchers": {
@@ -206,5 +205,44 @@
     "october": "October",
     "november": "November",
     "december": "December"
+  },
+
+  "cta": {
+    "learnMore": "Learn more"
+  },
+
+  "ariaLabels": {
+    "opensInANewTab": "Opens in a new tab",
+    "opensAPDFDocumentInANewTab": "Opens a PDF document in a new tab",
+    "questrade": "Questrade website link",
+    "viewResume": "View Aline Vignoli's resume",
+    "skillsClockworkLink": "Nyh Vignoli - Hard Skills Clockwork website",
+    "css3Animations": "'CSS3 Animations, Transforms and Transitions Ultimate Guide' course certificate",
+    "gcpFundamentals": "'Google Cloud Fundamentals: Core Infrastructure' course certificate",
+    "fullStackDevelopment": "'Web Full - Stack' course certificate",
+    "goTo": "Go to",
+    "labenu": "Labenu school website link",
+    "codivas": "Codivas agency website link",
+    "compiladoras": "Compiladoras de Cafeína Instagram profile",
+    "gufers": "Gufers group YouTube channel"
+  },
+
+  "alternativeText": {
+    "icons": {
+      "worldMap": "World map",
+      "menu": "Hamburger menu",
+      "cancel": "X cancel",
+      "email": "E-mail",
+      "whatsapp": "Whatsapp",
+      "frontend": "Illustration of different screens and devices",
+      "backend": "Illustration of a screen with gears",
+      "generalKnowledges": "Illustration of a brain representing a lamp"
+    },
+    "logos": {
+      "labenu": "Labenu logo, a minimalist polygonal flame coloured with orange, yellow and greyish blue",
+      "codivas": "Codivas logo, reads 'Codiva' in black and purple",
+      "compiladoras": "Compiladoras logo, black background and a coffee mug with a red heart inside",
+      "gufers": "Gufers logo, black background circule with a white rocket"
+    }
   }
 }

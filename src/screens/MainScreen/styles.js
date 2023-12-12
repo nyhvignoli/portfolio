@@ -1,8 +1,8 @@
 import styled from 'styled-components'
-import { theme } from '../../theme'
+import { Color } from '../../theme'
 
 export const Wrapper = styled.div`
-  background-color: ${theme.colors.blue};
+  background-color: ${Color.GREY_800};
 
   p {
     font-size: 1.5rem;

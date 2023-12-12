@@ -1,23 +1,18 @@
 import styled from 'styled-components'
-import { theme } from '../../theme'
-
-const { colors } = theme
+import { Color, Spacing, Breakpoints } from '../../theme'
 
 export const Wrapper = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: ${colors.lightGrey};
-  color: ${colors.deepBlue};
-  padding: 2rem 2rem 5rem 2rem;
-  gap: 2rem;
+  background-color: ${Color.GREY_700};
+  padding: ${Spacing.MOBILE.HUGE} 0px;
 
-  p {
-    opacity: 0.8;
+  @media (${Breakpoints.TABLET.REGULAR.MIN}) {
+    padding: ${Spacing.TABLET.HUGE} 0px;
   }
 
-  @media (max-width: 800px) {
-    padding: 1rem;
-    gap: 1rem;
+  @media (${Breakpoints.DESKTOP.LARGE}) {
+    padding: ${Spacing.DESKTOP.HUGE} 0px;
   }
 `

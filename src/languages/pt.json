@@ -5,16 +5,14 @@
   "professionTitle": "Desenvolvedora Full Stack",
   "aboutMeDescription": "Oi tudo bem? Eu sou Aline mas pode me chamar de Nyh!\n Descobri minha paixão por programação no início de 2020 e hoje sou Desenvolvedora Web Full Stack.\n Tenho um background artístico como musicista e tatuadora (profissão que excerci por 12 anos), e atualmente trabalho como Engenheira de Software na \n Enquanto mulher e lésbica, busco somar na inclusão e diversidade na tecnologia!",
   "viewResume": "Visualizar currículo",
-  "viewSkillsClockwork": "Ver tempo de experiência por habilidade",
+  "viewSkillsClockwork": "Saiba mais sobre meu tempo de experiência em cada technologia visitando ",
 
   "knowledges": "Conhecimentos",
   "frontendKnowledges": [
     "Desenvolvimento de aplicações Web responsivas",
-    "Componentização e manipulação de estado com React",
-    "Bibliotecas de estilização como Styled-components e Material-UI",
-    "Desenvolvimento de biblioteca de componentes com React e Storybook",
+    "Desenvolvimento de bibliotecas de componentes com React e Storybook",
     "Testes unitários com Jest e React Testing Library",
-    "Sitefinity CMS, criação de páginas e MVC widgets com .NET/C#",
+    "Sitefinity CMS, criação de páginas e MVC widgets com .NET",
     "Integrações com API's REST"
   ],
   "backendKnowledges": [
@@ -26,24 +24,26 @@
   ],
   "generalKnowledges": [
     "Clean Code",
+    "Automação de testes com Robot Framework",
     "Google Cloud Platform (GCP)",
     "AWS",
     "Metodologias Ágeis"
   ],
   "general": "Gerais",
 
-  "education": "Formação",
-  "webFullStackDevelopment": "Curso Web Full Stack",
-  "androidDevelopment": "Desenvolvimento Android",
-  "present": "presente",
-  "labenuBootcampDescription": "A Labenu é uma startup que forma Pessoas Desenvolvedoras Web Full Stack prontas para o mercado de trabalho. São mais de 1000 horas de programação que faz com que suas alunas e alunos sejam profissionais com conhecimentos adquiridos e postos em prática tanto no Back-end quanto no Front-end.",
-  "androidDevelopmentCourseDescription": "Curso de Desenvolvimento Android Nativo, ministrado por Jamilton Damasceno. Aprendizado utilizando a IDE Android Studio, linguagem Java, banco de dados SQLite e NoSQL com Firebase.",
+  "technologies": "Tecnologias",
 
-  "mongoDBDescription": "Fiz parte do time de desenvolvimento ágil internacional da MongoDB. Time responsável por dar manutenção, sustentação e desenvolvimento de novas funcionalidades para todos os sites que estão sob domínio mongodb.com. Nesse projeto trabalhei especialmente desenvolvendo bug fixes e melhorias, tanto no Backend e Front-end, mas com foco em Front-end.",
-  "shoppingOmniDescription": "Fiz parte do time de desenvolvimento ágil (front-end e back-end) do projeto Shopping Omni, por cerca de 2 meses. Trata-se de uma plataforma direcionada à lojistas, com gerenciamento e integração de lojas, marketplaces, produtos, pedidos e outras funcionalidades. No momento o site está sendo utilizado apenas para lojistas cadastrados.",
+  "certificates": "Certificados",
+  "css3Animations": "CSS3 Animations, Transforms, Transitions",
+  "gcpFundamentals": "Google Cloud Fundamentals",
+  "fullStackDevelopment": "Desenvolvimento Web Full Stack",
+
+  "gallery": "Ver galeria",
+  "mongoDBDescription": "Fiz parte do time responsável pela manutenção e desenvolvimento de novas funcionalidades para todos os sites sob domínio mongodb.com. Nesse projeto trabalhei especialmente desenvolvendo bug fixes e melhorias.",
+  "mongoDBComponentLibrary": "MongoDB Biblioteca de Componentes",
+  "mongoDBComponentLibDescription": "Fui uma das colaboradoras da biblioteca de componentes interna da MongoDB. Participando do desenvolvimento e documentação de componentes, implementando o Design System utilizando conceitos de Atomic Design.",
   "musicatchersDescription": "Projeto Full Stack do bootcamp da escola Labenu. Trata-se de uma aplicação com funcionalidades básicas de um site para streaming de músicas.",
-  "labedditDescription": "Projeto feito no bootcamp da escola Labenu. Uma rede social similar ao Reddit, onde é possível fazer postagens, comentar nos posts de outras pessoas e votar! Essa página utiliza uma API desenvolvida pela Labenu. Site responsivo para mobile.",
-  "astromatchDescription": "Projeto Astromatch do bootcamp da escola Labenu. Uma aplicação similar ao Tinder, com personalidades divertidas do cinema e TV onde você pode dar like ou não pra ver se dá match! :D Essa página utiliza uma API desenvolvida pela Labenu. Site responsivo para mobile.",
+  "labedditDescription": "Projeto feito no bootcamp da escola Labenu. Uma rede social similar ao Reddit, onde é possível fazer postagens, comentar nos posts de outras pessoas e votar!",
   "labenuSystemDescription": "Projeto de conclusão do Módulo 4 de Backend da Labenu. Feito em grupo, a proposta era criar um sistema da instituição de ensino trabalhando com as entidades Estudante, Docente e Turma.",
   "labookDescription": "Estrutura de back-end do Projeto Labook do bootcamp da escola Labenu. Trata-se de uma API com funcionalidades básicas de uma rede social.",
 
@@ -51,13 +51,12 @@
   "backendOnGithub": "Back-end no Github",
   "viewCodeOnGithub": "Ver no Github",
   "viewDocumentation": "Ver documentação",
-  "openWebsite": "Abrir site",
+  "viewWebsite": "Ver site",
 
   "communities": "Comunidades",
-  "vizirDescription": "Studio de software com mais de 10 anos no mercado, onde trabalho atualmente",
-  "labenuCommunityDescription": "Comunidade no Slack com fórum e cultura para estudantes e ex-estudantes da Labenu",
+  "labenuCommunityDescription": "Comunidade no Discord para estudantes e ex-estudantes da Labenu",
   "codivasDescription": "Agencia coletiva de mulheres em tecnologia",
-  "compiladorasDescription": "Comunidade de mulheres na tecnologia com cursos de programação, lives e workshops",
+  "compiladorasDescription": "Comunidade de mulheres em tecnologia",
   "gufersDescription": "Grupo de Usuários de Front End do Rio Grande do Sul",
 
   "callToActionContactText": "Gostou do meu trabalho? Bora bater um papo!",
@@ -68,9 +67,9 @@
   "music": "Música",
   "tattoo": "Tatuagem",
   "programming": "Programação",
-  "musicJourney": "Nasci na periferia de Rio Grande, interior do RS. Sou a filha mais nova de mãe solteira, numa família com mais dois irmãos e uma irmã. Meu irmão mais velho é músico, e foi assim que tive meu primeiro contato com instrumentos musicais. Aos 15 anos, aprendi violão como autodidata, lendo aquelas revistinhas de cifras. No segundo grau, montei minha primeira banda com mais duas amigas: Uma banda de New Metal chamada Cacofonia, onde eu cantava e tocava guitarra. Quando a banda acabou, eu segui o meu caminho fazendo voz e violão em barzinhos da cidade. Além do meu interesse em música, eu lembro de gostar muito de desenhar (pois meu irmão do meio sempre teve muito talento com desenhos). Sim, eu tive a sorte de nascer numa família de pessoas talentosas, mas que infelizmente não tiveram muitas oportunidades. Minha irmã sempre foi ótima em artesanatos, costura e coisas criativas. Hoje ela faz docinhos lindos e divertidos para vender por lá. Sei que tô sendo meio prolixa falando da minha família, mas não estaria contando a minha história de uma maneira justa se eu não mencionasse de onde eu vim e como me tornei a pessoa que sou. Aos 18 anos saí do armário como lésbica. Minha mãe foi incrível e sempre me apoiou muito. Aos 19 anos minha mãe me deu uma máquina de tatuagem e mudei para Tramandaí, próximo à Porto Alegre, para ficar mais perto da capital e tentar ganhar a vida como música e tatuadora, o que me leva à próxima etapa da minha história...",
-  "tattooJourney": "Em Tramandaí morei cerca de 1 ano com minha prima. Tatuei como autônoma nesse período e pela internet conheci a Kika, uma guitarrista incrível de Porto Alegre que tinha ouvido minhas músicas no MySpace. Fui encontrar ela pessoalmente e montamos uma banda só de mulheres chamada Electric Mind. Sei que estou misturando música e tattoo, mas é que essas duas paixões seguiram me acompanhando por um bom tempo. Com a Electric Mind a gente fez shows em Porto Alegre, São Paulo e Buenos Aires, foi uma fase incrível da minha vida, mas infelizmente não ganhávamos dinheiro com isso. Foi aí que eu eu comecei a trabalhar oficialmente como tatuadora num estúdio de POA. Tive algumas idas e vindas no estúdio pois o proprietário tinha uma visão muito conservadora e preconceituosa e não me sentia à vontade lá. No final de 2013 eu conheci e me apaixonei pela Germana, minha companheira. Ela sempre esteve do meu lado e sempre me apoiou em tudo, e num certo momento sentimos que Porto Alegre não fazia mais sentido pra gente. A gestão mudou, a cidade ficou violenta, então resolvemos tentar a sorte em Floripa. Lá inauguramos um estúdio de tattoo, Feminink. A idéia era ser um espaço seguro e acolhedor para todas as pessoas, onde só trabalhariam mulheres. Conseguimos manter o estúdio por 2 anos, comigo tatuando e a Gê administrando e cuidando de todo o resto: Mídias sociais, eventos, recepção de clientes, etc. Com o novo governo no país, economia decadente e enfrentando muita lesbofobia e misoginia, o movimento no estúdio diminui bastante. Decidimos mudar o nome do estúdio para Corpo Fechado, pois notamos que o nome Feminink estava mais afastando do que trazendo clientes. Logo Corpo Fechado também não vingou e tivemos que fechar as portas. Com a pandemia a minha carreira como tatuadora estagnou e eu resolvi aproveitar o isolamento para buscar uma nova profissão...",
-  "programmingJourney": "Comecei comprando um curso de Desenvolvimento Android da Udemy e fui estudando no meu próprio tempo, de maneira autônoma. O curso tinha duração de 100 horas, e quando eu estava chegando nos 50% do progresso vi no Instagram uma postagem de uma escola de tecnologia inovadora chamada Labenu. Lembro que o post era sobre o incentivo de mais mulheres e diversidade na tecnologia e foi assim que eu me apaixonei. O curso era bem diferente do que eu estava estudando, era focado em Programação Web e empregabilidade, o que me chamou bastante a atenção pois queria algo mais profissional. Me inscrevi para participar do processo seletivo na modalidade ISA(Income Share Agreement) e passei. Foram 6 meses intensos de aprendizados práticos em programação e a Labenu sempre foi um ambiente muito seguro e acolhedor. A escola não só me construiu enquanto programadora mas enquanto pessoa, pois um de seus pilares é que o emocional vem à frente do técnico, o que na prática foi muito enriquecedor pra mim. Hoje me sinto segura e qualificada para encarar os desafios do mercado, claro que tenho muito a evoluir e a crescer, mas já estou super feliz com a minha caminhada e pronta para mergulhar de cabeça nesse novo universo! :)",
+  "musicJourney": "Nasci na periferia de Rio Grande, interior do RS. Sou a filha mais nova de mãe solteira, numa família com mais dois irmãos e uma irmã. \nMeu irmão mais velho é músico, e foi assim que tive meu primeiro contato com instrumentos musicais. Aos 15 anos, aprendi violão como autodidata, lendo aquelas revistinhas de cifras. No segundo grau, montei minha primeira banda com mais duas amigas: Uma banda de New Metal chamada Cacofonia, onde eu cantava e tocava guitarra. A banda eventualmente acabou, mas eu segui o meu caminho fazendo voz e violão em barzinhos da cidade.\n Além do meu interesse em música, eu lembro de gostar muito de desenhar (pois meu irmão do meio sempre teve muito talento com desenhos). Sim, eu tive a sorte de nascer numa família de pessoas talentosas! Por exemplo, minha irmã sempre foi ótima em artesanatos, costura e coisas criativas. Hoje ela faz docinhos lindos e divertidos para vender por lá.\n Sempre que conto a minha história, acabo falando da minha família, mas é que eu não estaria onde estou se não fosse pelas influências que eu tive!\n Enfim, aos 18 anos saí do armário como lésbica. Minha mãe sempre me apoiou muito. No ano seguinte ela me deu uma máquina de tatuagem de presente. Foi quando me mudei para Tramandaí, próximo à Porto Alegre, para ficar mais perto da capital e tentar ganhar a vida como música e tatuadora, o que me leva à próxima etapa da minha história...",
+  "tattooJourney": "Em Tramandaí morei cerca de 1 ano com minha prima. Tatuei como autônoma nesse período e pela internet conheci a Kika, uma guitarrista incrível de Porto Alegre que tinha ouvido minhas músicas no MySpace. Fui encontrar ela pessoalmente e montamos uma banda só de mulheres chamada Electric Mind. Com a Electric Mind a gente fez shows em Porto Alegre, São Paulo e Buenos Aires, foi uma fase incrível da minha vida, mas infelizmente não ganhávamos dinheiro com isso. Foi aí que eu comecei a trabalhar oficialmente como tatuadora em um estúdio de POA. Tive algumas idas e vindas no estúdio pois o proprietário tinha uma visão muito conservadora e preconceituosa e não me sentia à vontade lá.\n No final de 2013 eu conheci e me apaixonei pela Germana, minha companheira. Ela sempre esteve do meu lado e sempre me apoiou em tudo, e num certo momento sentimos que Porto Alegre não fazia mais sentido pra gente. A gestão mudou, a cidade ficou violenta, então resolvemos tentar a sorte em Floripa.\n Lá inauguramos um estúdio de tattoo, Feminink. A idéia era ser um espaço seguro e acolhedor para todas as pessoas, onde só trabalhariam mulheres. Conseguimos manter o estúdio por 2 anos, comigo tatuando e a Gê administrando e cuidando de todo o resto (mídias sociais, eventos, recepção de clientes, etc). Com a extrema direita governando o país, economia decadente e enfrentando muita lesbofobia e misoginia, o movimento no estúdio diminui bastante. Decidimos mudar o nome do estúdio para Corpo Fechado, pois notamos que o nome Feminink estava mais afastando do que trazendo clientes.\n Logo, Corpo Fechado também não vingou e tivemos que fechar as portas. Com a pandemia a minha carreira como tatuadora estagnou e eu resolvi aproveitar o isolamento para buscar uma nova profissão...",
+  "programmingJourney": "Comecei comprando um curso de Desenvolvimento Android da Udemy e fui estudando no meu próprio tempo, de maneira autônoma. O curso tinha duração de 100 horas, e quando eu estava chegando nos 50% do progresso, vi no Instagram uma postagem de uma escola de tecnologia inovadora chamada Labenu.\n Lembro que o post era sobre o incentivo de mais mulheres e diversidade na tecnologia, o que me chamou bastante à atenção. O curso era bem diferente do que eu estava estudando, era mais focado em Programação Web e empregabilidade.\n Me inscrevi para participar do processo seletivo na modalidade ISA (Income Share Agreement) e passei. Foram 6 meses intensos de aprendizados práticos em programação, com grandes desafios, mas a Labenu sempre foi um ambiente muito seguro e acolhedor. \n Antes mesmo da minha formatura, no final do curso, eu já estava empregada e pronta para começar no meu primeiro trabalho na área de tecnologia.\n Hoje me sinto cada vez mais segura e qualificada para encarar os desafios do mercado, sempre buscando evoluir e a crescer, estou super feliz com a minha caminhada até agora! :)",
 
   "images": {
     "mongoDB": {
@@ -127,18 +126,18 @@
         "caption": "NavBar, depois do fix (versão mobile)"
       }
     },
-    "shoppingOmni": {
-      "shoppingOmni1": {
-        "alt": "foto da tela de Etiquetas, onde listam pedidos com informações de código, nome do cliente, valor do pedido e método de entrega",
-        "caption": "Tela Etiquetas, aba 'Gerar etiqueta'"
+    "mongoDBComponentLib": {
+      "webinarsPresentation": {
+        "alt": "Página webinars no site da MongoDB, título diz 'Data Modeling in MongoDB'",
+        "caption": "Página webinars no site da MongoDB"
       },
-      "shoppingOmni2": {
-        "alt": "foto da tela de Minhas Etiquetas, lista de PLP's com botão para imprimir e botão para desagrupar",
-        "caption": "Tela Etiquetas, aba 'Minhas etiquetas'"
+      "cardGrid": {
+        "alt": "Página no site da MongoDB com dois cartões: 'Atlas' (Multi-cloud database platform) e 'Realm' (Work with data at the edge)",
+        "caption": "Grade de cartões no site da MongoDB"
       },
-      "shoppingOmni3": {
-        "alt": "foto da tela de Minhas Etiquetas, aba para solicitar coleta, listando código do pedido, nome do cliente e valor do pedido",
-        "caption": "Tela Etiquetas, aba 'Coleta'"
+      "form": {
+        "alt": "Formulário de registro de MongoDB webinars",
+        "caption": "Formulário de registro de MongoDB webinars"
       }
     },
     "musicatchers": {
@@ -165,7 +164,7 @@
     },
     "labeddit": {
       "labedditScreenshot": {
-        "alt": "foto do feed do projeto Labeddit, cor base do fundo em branco com a barra de navegação em tons de vermelho.",
+        "alt": "Feed do projeto Labeddit, cor base do fundo em branco e barra de navegação em vermelho.",
         "caption": "Feed com todas as postagens"
       },
       "labeddit2": {
@@ -206,5 +205,44 @@
     "october": "Outubro",
     "november": "Novembro",
     "december": "Dezembro"
+  },
+
+  "cta": {
+    "learnMore": "Saiba mais"
+  },
+
+  "ariaLabels": {
+    "opensInANewTab": "Abre em uma nova aba",
+    "opensAPDFDocumentInANewTab": "Abre um documento PDF em uma nova aba",
+    "questrade": "Link para o website da Questrade",
+    "viewResume": "Visualizar o currículo de Aline Vignoli",
+    "skillsClockworkLink": "Website Nyh Vignoli - Hard Skills Clockwork",
+    "css3Animations": "Certificado de conclusão do curso 'CSS3 Animations, Transforms and Transitions Ultimate Guide'",
+    "gcpFundamentals": "Certificado de conclusão do curso 'Google Cloud Fundamentals: Core Infrastructure'",
+    "fullStackDevelopment": "Certificado de conclusão do curso 'Web Full - Stack'",
+    "goTo": "Ir para",
+    "labenu": "Link para o website da escola Labenu",
+    "codivas": "Link para o website Codivas",
+    "compiladoras": "Link para o Instagram do grupo Compiladoras de Cafeína",
+    "gufers": "Link para o canal do Youtube do grupo Gufers"
+  },
+
+  "alternativeText": {
+    "icons": {
+      "worldMap": "Mapa mundial",
+      "menu": "Menu hambúrger",
+      "cancel": "X cancelar",
+      "email": "E-mail",
+      "whatsapp": "Whatsapp",
+      "frontend": "Ícone de diferentes telas e dispositivos",
+      "backend": "Ícone de uma tela com engrenagens",
+      "generalKnowledges": "Ícone de um cérebro representando uma lâmpada"
+    },
+    "logos": {
+      "labenu": "Logo da Labenu, uma chame minimalista e poligonal nas cores laranja, amarelo a azul acinzentado",
+      "codivas": "Logo da Codivas, escrito codivas em preto e roxo",
+      "compiladoras": "Logo das Compiladoras, com fundo preto e um xícara de café com um coração vermelho dentro",
+      "gufers": "Logo dos Gufers, círculo de fundo preto com um foguete branco"
+    }
   }
 }

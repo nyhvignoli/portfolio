@@ -1,9 +1,7 @@
 import { fireEvent, render, screen } from '@testing-library/react'
 import LanguageSelector from './LanguageSelector'
 import { LanguageProvider } from '../../global/LanguagesContext'
-import { theme } from '../../theme'
-
-const { colors } = theme
+import { Color } from '../../theme'
 
 describe('LanguageSelector', () => {
   test('renders a LanguageSelector menu', () => {
@@ -21,7 +19,7 @@ describe('LanguageSelector', () => {
     expect(menuElement).toBeInTheDocument()
     expect(ptMenuItem).toBeInTheDocument()
     expect(ptMenuItem).toHaveStyle({
-      color: colors.babyBlue
+      color: Color.GREY_400
     })
   })
 
@@ -39,7 +37,7 @@ describe('LanguageSelector', () => {
 
     expect(hideSelect).toHaveBeenCalled()
     expect(enMenuItem).toHaveStyle({
-      color: colors.babyBlue
+      color: Color.GREY_400
     })
   })
 
@@ -57,7 +55,7 @@ describe('LanguageSelector', () => {
 
     expect(hideSelect).toHaveBeenCalled()
     expect(ptMenuItem).toHaveStyle({
-      color: colors.babyBlue
+      color: Color.GREY_400
     })
   })
 })

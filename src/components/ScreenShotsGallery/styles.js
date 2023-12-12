@@ -1,11 +1,9 @@
 import styled from 'styled-components'
 import Paper from '@material-ui/core/Paper'
-import { theme } from '../../theme'
-
-const { colors } = theme
+import { Color } from '../../theme'
 
 export const Background = styled.div`
-  background-color: ${colors.modalTransparent};
+  background-color: ${Color.TRANSPARENT('0.95')};
   width: 100vw;
   height: 100vh;
   position: fixed;
@@ -16,6 +14,7 @@ export const Background = styled.div`
 `
 
 export const Wrapper = styled.div`
+  height: 100%;
   width: 80%;
   position: fixed;
   left: 50%;
@@ -36,7 +35,16 @@ export const Header = styled(Paper)`
 `
 
 export const ImageWrapper = styled.div`
+  display: flex;
   width: 100%;
-  max-height: calc(100vh - 100px);
+  height: 100%;
+  max-height: calc(100% - 100px);
   overflow: auto;
+`
+
+export const Image = styled.img`
+  width: 100%;
+  max-height: inherit;
+  object-fit: contain;
+  transition: all 0.2s ease-in-out;
 `

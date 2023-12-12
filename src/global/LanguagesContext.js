@@ -8,8 +8,10 @@ export const LanguageContext = createContext({
 })
 
 // it provides the language context to app
-export const LanguageProvider = ({ children }) => {
-  const defaultLanguage = window.localStorage.getItem('rcml-lang')
+export const LanguageProvider = ({
+  children,
+  defaultLanguage = window.localStorage.getItem('rcml-lang')
+}) => {
   const [userLanguage, setUserLanguage] = useState(defaultLanguage || 'pt')
 
   const provider = {

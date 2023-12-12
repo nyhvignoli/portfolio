@@ -2,12 +2,27 @@ body {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
-  background-color: rgba(0, 67, 108, 0.64);
-  font-family: 'Pathway Gothic One', sans-serif;
-  font-size: 1.2rem;
+  background-color: #050505;
+  font-family: 'Open Sans', sans-serif;
   color: #fff;
-  /* font-family: 'Roboto', sans-serif;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-family: 'Syne Mono', monospace;*/
-  /* font-family: 'Ubuntu Condensed', sans-serif; */
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'Andada Pro';
+  src: local('Andada Pro'), url(./fonts/Andada_Pro/AndadaPro-VariableFont_wght.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Anek Odia';
+  src: local('Anek Odia'), url(./fonts/Anek_Odia/AnekOdia-VariableFont_wdth\,wght.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: local('Open Sans'), url(./fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf) format('truetype');
 }

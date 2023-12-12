@@ -3,11 +3,11 @@ import { Wrapper, Content } from './styles'
 import AboutMe from '../../components/AboutMe/AboutMe'
 import Footer from '../../components/Footer/Footer'
 import Knowledges from '../../components/Knowledges/Knowledges'
-import Education from '../../components/Education/Education'
 import NavBar from '../../components/NavBar/NavBar'
 import Projects from '../../components/Projects/Projects'
-import Timeline from '../../components/Timeline/Timeline'
+import MyJourney from '../../components/MyJourney/MyJourney'
 import Communities from '../../components/Communities/Communities'
+import Certificate from '../../components/Certificate/Certificate'
 
 const MainScreen = () => {
   const smoothScroll = () => {
@@ -34,9 +34,9 @@ const MainScreen = () => {
       <Content>
         <AboutMe />
         <Knowledges />
-        <Education />
+        <Certificate />
         <Projects />
-        <Timeline />
+        <MyJourney />
         <Communities />
       </Content>
       <Footer />

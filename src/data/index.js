@@ -1,21 +1,24 @@
 import { getCommunities } from './communities'
-import { getCourses } from './courses'
 import { getProjects } from './projects'
-import { getTimelineSteps } from './timelineSteps'
+import { getMyJourneySteps } from './myJourneySteps'
+import { getKnowledges } from './knowledges'
+import { getCertificates } from './certificates'
 
 export const DATA_TYPE = {
   communities: 'communities',
-  courses: 'courses',
   projects: 'projects',
-  timelineSteps: 'timelineSteps'
+  myJourneySteps: 'myJourneySteps',
+  knowledges: 'knowledges',
+  certificates: 'certificates'
 }
 
 export const getData = (dictionary, type) => {
   const Data = {
     communities: getCommunities(dictionary),
-    courses: getCourses(dictionary),
     projects: getProjects(dictionary),
-    timelineSteps: getTimelineSteps(dictionary)
+    myJourneySteps: getMyJourneySteps(dictionary),
+    knowledges: getKnowledges(dictionary),
+    certificates: getCertificates(dictionary)
   }
 
   return Data[type]

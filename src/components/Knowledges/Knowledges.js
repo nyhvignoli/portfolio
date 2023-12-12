@@ -1,57 +1,51 @@
 import React, { useContext } from 'react'
-import { Subtitle } from '../../global/styles'
-import { ListItem, StackList } from '../../global/styles'
-import KnowledgesContent from './KnowledgesContent/KnowledgesContent'
-import { Wrapper, Content } from './styles'
-import backend from '../../assets/backend.png'
-import frontend from '../../assets/frontend.svg'
 import { LanguageContext, Text } from '../../global/LanguagesContext'
+import { Wrapper } from './styles'
+import { Heading2 } from '../../global/styles'
+import { GridLayout } from '../GridLayout'
+import { BaseCard } from '../Cards'
+import { getData, DATA_TYPE } from '../../data'
+import { Technologies } from '../Technologies'
+import { stacks } from '../../data/stacks'
+import { Space } from '../Space'
+import { Spacing } from '../../theme'
+import { List } from '../List'
 
 const Knowledges = () => {
   const { dictionary } = useContext(LanguageContext)
+  const knowledges = getData(dictionary, DATA_TYPE.knowledges)
 
   return (
     <Wrapper id="knowledges" data-testid="knowledges-wrapper">
-      <Subtitle
-        data-aos="fade-zoom-in"
-        data-aos-duration="1500"
-        data-aos-easing="ease-in-out"
+      <Space
+        mobile={{ marginBottom: Spacing.MOBILE.LARGE }}
+        tablet={{ marginBottom: Spacing.TABLET.LARGE }}
+        desktop={{ marginBottom: Spacing.DESKTOP.LARGE }}
       >
-        <Text tid="knowledges" />
-      </Subtitle>
-      <Content>
-        <KnowledgesContent
-          title={'Front-end'}
-          knowledges={dictionary.frontendKnowledges}
-          icon={frontend}
-          alt="Ícone de diferentes telas e dispositivos"
-        />
-        <KnowledgesContent
-          title={'Back-end'}
-          knowledges={dictionary.backendKnowledges}
-          icon={backend}
-          alt="Ícone de uma tela com engrenagens"
-        />
-      </Content>
-      <div>
-        <Subtitle data-aos="fade-zoom-in" data-aos-duration="1500">
-          <Text tid="general" />
-        </Subtitle>
-        <StackList>
-          {dictionary.generalKnowledges.map((item, index) => {
-            return (
-              <ListItem
-                key={index}
-                data-aos="flip-right"
-                data-aos-duration="2000"
-                data-aos-easing="ease-out-cubic"
-              >
-                {item}
-              </ListItem>
-            )
-          })}
-        </StackList>
-      </div>
+        <Heading2>
+          <Text tid="knowledges" />
+        </Heading2>
+      </Space>
+      <GridLayout width="100%">
+        {knowledges.map(({ title, icon, list }, index) => {
+          return (
+            <BaseCard
+              key={`${title}-${index}`}
+              headerProps={{ title, icon }}
+              contentProps={{ list }}
+            >
+              {!!list.length && (
+                <List>
+                  {list.map((item, index) => {
+                    return <li key={index}>{item}</li>
+                  })}
+                </List>
+              )}
+            </BaseCard>
+          )
+        })}
+        <Technologies title={dictionary.technologies} list={stacks} />
+      </GridLayout>
     </Wrapper>
   )
 }

@@ -1,70 +1,42 @@
 import styled from 'styled-components'
-import profilePic from '../../assets/profile-aline-vignoli.jpg'
-import { theme } from '../../theme'
+import { Breakpoints, Spacing } from '../../theme'
 
-const { colors } = theme
-
-export const Wrapper = styled.section`
+export const BackgroundWrapper = styled.section`
   width: 100%;
-  display: flex;
-  color: ${colors.white};
-  background-color: ${colors.blue};
-
-  @media (max-width: 1024px) {
-    flex-wrap: wrap;
-  }
+  position: relative;
 `
 
-export const InfoSection = styled.div`
+export const Wrapper = styled.div`
+  position: relative;
+  padding: ${Spacing.MOBILE.HUGE} 0px;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  padding: 2rem;
-  width: 55%;
-
-  p {
-    font-size: 1.4rem;
-    opacity: 0.8;
-  }
-
-  @media (max-width: 1024px) {
-    padding: 1rem;
-    width: 100%;
-  }
-`
-
-export const ImageSection = styled.div`
-  display: flex;
   align-items: center;
-  justify-content: flex-end;
-  width: 100%;
-  background-image: url(${profilePic});
-  background-repeat: no-repeat;
-  background-position: center;
-  opacity: 0.5;
-  height: 100%;
+  grid-column: 1/7;
 
-  @media (max-width: 1024px) {
-    box-shadow: 2px 2px 6px 2px #012940;
+  @media (${Breakpoints.TABLET.REGULAR.MIN}) {
+    padding: ${Spacing.TABLET.HUGE} 0px;
+    grid-column: 2/8;
+  }
+
+  @media (${Breakpoints.DESKTOP.LARGE}) {
+    padding: ${Spacing.DESKTOP.HUGE} 0px;
+    grid-column: 3/11;
   }
 `
 
-export const Filter = styled.div`
-  background-color: ${colors.lightBlue};
-  width: 45%;
-  height: 592px;
-  position: relative;
-
-  @media (max-width: 1024px) {
-    width: 592px;
-    margin: auto;
-  }
-`
-
-export const ButtonsLockup = styled.div`
+export const Content = styled.div`
+  z-index: 1;
   display: flex;
-  gap: 12px;
+  flex-direction: column;
   align-items: center;
-  width: 100%;
-  flex-wrap: wrap;
+  margin-bottom: ${Spacing.MOBILE.SMALL};
+
+  @media (${Breakpoints.TABLET.REGULAR.MIN}) {
+    margin-bottom: ${Spacing.TABLET.SMALL};
+  }
+
+  @media (${Breakpoints.DESKTOP.LARGE}) {
+    margin-bottom: ${Spacing.DESKTOP.SMALL};
+  }
 `

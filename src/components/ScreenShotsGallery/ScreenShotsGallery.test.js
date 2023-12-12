@@ -18,7 +18,7 @@ describe('ScreenShotsGallery', () => {
   test('renders a ScreenShotsGallery with Background as wrapper', () => {
     const props = {
       images,
-      handleImageDetailsClose: () => {}
+      handleGalleryClose: () => {}
     }
 
     render(<ScreenShotsGallery {...props} />)
@@ -31,7 +31,7 @@ describe('ScreenShotsGallery', () => {
   test('should disable back button by default', () => {
     const props = {
       images,
-      handleImageDetailsClose: () => {}
+      handleGalleryClose: () => {}
     }
 
     render(<ScreenShotsGallery {...props} />)
@@ -42,7 +42,7 @@ describe('ScreenShotsGallery', () => {
   test('should enable next button when images length is greater than 1', () => {
     const props = {
       images,
-      handleImageDetailsClose: () => {}
+      handleGalleryClose: () => {}
     }
 
     render(<ScreenShotsGallery {...props} />)
@@ -53,7 +53,7 @@ describe('ScreenShotsGallery', () => {
   test('should handle the disabled property of buttons based on active step', () => {
     const props = {
       images,
-      handleImageDetailsClose: jest.fn()
+      handleGalleryClose: jest.fn()
     }
 
     render(<ScreenShotsGallery {...props} />)
@@ -74,10 +74,10 @@ describe('ScreenShotsGallery', () => {
     expect(nextButton).toHaveProperty('disabled', false)
   })
 
-  test('should call handleImageDetailsClose function', () => {
+  test('should call handleGalleryClose function', () => {
     const props = {
       images,
-      handleImageDetailsClose: jest.fn()
+      handleGalleryClose: jest.fn()
     }
 
     render(<ScreenShotsGallery {...props} />)
@@ -85,7 +85,7 @@ describe('ScreenShotsGallery', () => {
 
     fireEvent.click(closeButton)
 
-    expect(props.handleImageDetailsClose).toHaveBeenCalled()
-    expect(props.handleImageDetailsClose).toHaveBeenCalledTimes(1)
+    expect(props.handleGalleryClose).toHaveBeenCalled()
+    expect(props.handleGalleryClose).toHaveBeenCalledTimes(1)
   })
 })

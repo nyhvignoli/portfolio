@@ -1,7 +1,30 @@
 import styled from 'styled-components'
-import { theme } from '../../theme'
+import {
+  Breakpoints,
+  Color,
+  Shadow,
+  Spacing,
+  Sizes,
+  FontWeight,
+  FontSize,
+  Transition
+} from '../../theme'
 
-const { colors } = theme
+export const Wrapper = styled.div`
+  height: ${Sizes.NAV.HEIGHT.DESKTOP.REGULAR};
+  grid-column: 1/7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media (${Breakpoints.TABLET.REGULAR.MIN}) {
+    grid-column: 1/9;
+  }
+
+  @media (${Breakpoints.DESKTOP.LARGE}) {
+    grid-column: 1/13;
+  }
+`
 
 export const StyledNav = styled.nav`
   position: sticky;
@@ -10,32 +33,41 @@ export const StyledNav = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5rem 2rem;
-  max-height: 56px;
-  background-color: ${colors.transparentBlue};
-  box-shadow: 2px 4px 6px 2px rgba(0, 0, 0, 0.2);
-  color: ${colors.white};
-  font-family: 'Roboto Condensed', sans-serif;
-  font-weight: bold;
+  background-color: ${Color.GREY_600};
+  box-shadow: ${Shadow.NAV};
+  color: ${Color.GREY_50};
+  font-weight: ${FontWeight.SEMI_BOLD};
+  font-size: ${FontSize.MOBILE.BODY_2};
 
   img {
-    width: 38px;
+    width: ${Sizes.ICON.WIDTH.DESKTOP.SMALL};
   }
 
-  @media (max-width: 580px) {
-    padding: 0.5rem;
+  @media (${Breakpoints.TABLET.REGULAR.MIN}) {
+  }
+
+  @media (${Breakpoints.DESKTOP.LARGE}) {
+    font-size: ${FontSize.DESKTOP.BODY_2};
   }
 `
 
-export const LanguageMenu = styled.div`
+export const LanguageMenu = styled.button`
   justify-self: flex-start;
   position: relative;
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 4px;
+  font: inherit;
+  cursor: pointer;
 `
 
 export const MenuIcon = styled.img`
+  z-index: 1;
+  width: ${Sizes.ICON.WIDTH.DESKTOP.SMALL};
   transition: all 0.4s ease-in-out 0.1s;
 
-  @media (min-width: 580px) {
+  @media (${Breakpoints.TABLET.SMALL.MIN}) {
     display: none;
   }
 `
@@ -43,31 +75,41 @@ export const MenuIcon = styled.img`
 export const StyledList = styled.ul`
   display: flex;
   list-style-type: none;
-  justify-content: flex-end;
+  justify-content: space-between;
   padding-inline-start: 0;
-  gap: 3rem;
+  width: 100%;
+  max-width: 500px;
+  min-width: 370px;
+  height: 100%;
+  align-items: center;
 
-  @media (max-width: 580px) {
-    font-size: 2rem;
+  @media (${Breakpoints.TABLET.REGULAR.MAX}) {
+    max-width: 370px;
+  }
+
+  @media (${Breakpoints.MOBILE.LARGE.MAX}) {
+    gap: ${Spacing.MOBILE.REGULAR};
+    font-size: ${FontSize.MOBILE.BODY_1};
     justify-content: center;
     align-items: center;
     position: fixed;
     right: 0;
     bottom: 0;
-    left: 30%;
+    left: 0;
     flex-direction: column;
-    background-color: black;
+    background-color: ${Color.GREY_900};
     height: 100vh;
-    width: 80vw;
+    max-width: 100%;
     margin: 0;
-    z-index: -1;
-    transition: all 0.2s ease-in-out 0.1s;
     text-align: center;
+    transition: all ${Transition.DURATION.FAST} ease-in-out ${
+  Transition.DURATION.SUPER_FAST
+};
 
     ${({ hide }) =>
       hide &&
       `
-        transition: all 0.4s ease-in-out 0.1s;
+        transition: all ${Transition.DURATION.SLOW} ease-in-out ${Transition.DURATION.SUPER_FAST};
         left: 100%;
       `}
 `
@@ -75,26 +117,33 @@ export const StyledList = styled.ul`
 export const ListItem = styled.li``
 
 export const Anchor = styled.a`
+  padding: ${Spacing.MOBILE.TINY};
   box-sizing: border-box;
   text-decoration: none;
-  color: inherit;
+  color: ${Color.GREY_100};
   transform: scale(1);
-  transition: all 0.1s ease-in-out 0.1s;
+  transition: all ${Transition.DURATION.FAST} ease;
 
   &:active {
-    color: ${colors.lightOrange};
+    color: ${Color.JADE_GREEN_400};
   }
 
   ${({ active }) =>
     active
       ? `
     transform: scale(1.1);
-    transition: all 0.2s ease-in-out 0.1s;
-    border-bottom: 2px solid ${colors.lightOrange}`
+    transition: all ${Transition.DURATION.FAST} ease;
+    border-bottom: 2px solid ${Color.JADE_GREEN_400};`
       : `&:hover {
     opacity: 0.6;
-    transform: scale(1.1);
-    transition: all 0.2s ease-in-out 0.1s;
-    border-bottom: 2px solid ${colors.lightOrange}
-  }`}
+    transform: scale(1.1) translateY(1px);
+    transition: all ${Transition.DURATION.FAST} ease;
+    border-bottom: 2px solid ${Color.JADE_GREEN_400};
+  }
+  &:focus {
+    opacity: 0.6;
+    transform: scale(1.1) translateY(1px);
+    transition: all ${Transition.DURATION.FAST} ease;
+  }
+  `}
 `

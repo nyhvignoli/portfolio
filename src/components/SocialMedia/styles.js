@@ -1,18 +1,15 @@
 import styled from 'styled-components'
+import { Spacing } from '../../theme'
 
-export const SocialMediaWrapper = styled.aside`
-  display: flex;
-  padding: 2rem;
-  gap: 2rem;
-  align-items: center;
-  justify-content: center;
+export const SocialMediaWrapper = styled.div`
+  display: grid;
+  gap: 8px;
+  row-gap: ${Spacing.MOBILE.X_SMALL};
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 360px;
+  flex-wrap: wrap;
+`
 
-  ${({ vertical }) =>
-    vertical &&
-    `
-      flex-direction: column;
-      position: absolute;
-      right: 2rem;
-      top: 30%;
-    `}
+export const Icon = styled.img`
+  margin-right: ${Spacing.MOBILE.XX_SMALL};
 `
