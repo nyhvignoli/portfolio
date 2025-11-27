@@ -136,18 +136,24 @@ const bodySmallStyles = `
 `
 
 export const Body = styled.span`
-  font-size: ${FontSize.MOBILE.BODY_3};
-  line-height: ${LineHeight.MOBILE.BODY_3};
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 
-  @media (${Breakpoints.DESKTOP.LARGE}) {
-    font-size: ${FontSize.DESKTOP.BODY_3};
-    line-height: ${LineHeight.DESKTOP.BODY_3};
+  p {
+    font-size: ${FontSize.MOBILE.BODY_3};
+    line-height: ${LineHeight.MOBILE.BODY_3};
+
+    @media (${Breakpoints.DESKTOP.LARGE}) {
+      font-size: ${FontSize.DESKTOP.BODY_3};
+      line-height: ${LineHeight.DESKTOP.BODY_3};
+    }
+
+    ${({ small, align }) => `
+      ${small && bodySmallStyles};
+      text-align: ${align};
+    `}
   }
-
-  ${({ small, align }) => `
-    ${small && bodySmallStyles};
-    text-align: ${align};
-  `}
 `
 
 export const Body4 = styled.span`
